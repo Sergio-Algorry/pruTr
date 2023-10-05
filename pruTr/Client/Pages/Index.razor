@@ -1,9 +1,36 @@
 ﻿@page "/"
 <h1>Expresión IMPLICITA</h1>
 <br />
+<h3>Hola @nombre,que tal</h3>
+<br />
 <h3>Hola @nombre.ToUpper(),que tal</h3>
 <br />
 <h3>Hola @Mayuscula("pepe"),que tal</h3>
+<br />
+<br />
+<h1>Expresión EXPLICITA</h1>
+<br />
+<h3>Quiero el resultado de 2 + 2 igual a 4</h3>
+<br />
+<h3>Quiero el resultado de 2 + 2 igual a @(2 + 2)</h3>
+<br />
+<br />
+<br />
+<button @onclick=@(()=> Console.WriteLine("Hola Ian"))>Con Ian</button>
+<br />
+<br />
+<br />
+<button @onclick=@(()=>
+    {
+        nombre = "jose";
+        nombre = nombre.ToUpper();
+    }
+    )>
+    con jose
+</button>
+<br />
+<h3>Hola @nombre,que tal</h3>
+
 
 @code
 {

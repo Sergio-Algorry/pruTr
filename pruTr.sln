@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruTr.Server", "pruTr\Server\pruTr.Server.csproj", "{AF45870B-907B-4A2E-9F71-6FDC29B096DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pruTr.Server", "pruTr\Server\pruTr.Server.csproj", "{AF45870B-907B-4A2E-9F71-6FDC29B096DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruTr.Client", "pruTr\Client\pruTr.Client.csproj", "{271C6214-58FB-4556-BE98-F84EB0E6DD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pruTr.Client", "pruTr\Client\pruTr.Client.csproj", "{271C6214-58FB-4556-BE98-F84EB0E6DD47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruTr.Shared", "pruTr\Shared\pruTr.Shared.csproj", "{DF4E8744-F246-45C0-BCBB-F04B9232A5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pruTr.Shared", "pruTr\Shared\pruTr.Shared.csproj", "{DF4E8744-F246-45C0-BCBB-F04B9232A5FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
